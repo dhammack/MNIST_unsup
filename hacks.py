@@ -1,17 +1,16 @@
-#python codez
+#Daniel Hammack
+#This code is licensed under the do whatever the hell you want license
+
 import numpy as np
-from sklearn import preprocessing as pp
 from sklearn.cluster import KMeans as kmeans
 from numpy.linalg import norm as norm
 import itertools as it
 from sklearn.linear_model import SGDClassifier
 from sklearn import cross_validation as cv
 from sklearn.feature_extraction import image
-from sklearn.decomposition import PCA, FastICA
+from sklearn.decomposition import PCA
 import matplotlib.pyplot as plt
 import random
-
-
 
 def loadtrain(path, max=10000):
 	data = [] #matrix without labels
