@@ -1,5 +1,5 @@
 #Daniel Hammack
-#This code is licensed under the do whatever the hell you want license (TM)
+#Do whatever.
 
 import numpy as np
 from sklearn.cluster import KMeans as kmeans
